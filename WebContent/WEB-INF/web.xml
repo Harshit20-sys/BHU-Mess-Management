@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <!-- Welcome File -->
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+
+    <!-- Student Login Servlet -->
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.bhu.mess.servlet.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Student Registration Servlet -->
+    <servlet>
+        <servlet-name>RegisterServlet</servlet-name>
+        <servlet-class>com.bhu.mess.servlet.RegisterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegisterServlet</servlet-name>
+        <url-pattern>/RegisterServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Mess Registration Servlet -->
+    <servlet>
+        <servlet-name>RegisterInMessServlet</servlet-name>
+        <servlet-class>com.bhu.mess.servlet.RegisterInMessServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegisterInMessServlet</servlet-name>
+        <url-pattern>/RegisterInMessServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Update Mess Registration -->
+    <servlet>
+        <servlet-name>UpdateMessServlet</servlet-name>
+        <servlet-class>com.bhu.mess.servlet.UpdateMessServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateMessServlet</servlet-name>
+        <url-pattern>/UpdateMessServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- ✅ Mess Owner Login Servlet -->
+    <servlet>
+        <servlet-name>MessOwnerLoginServlet</servlet-name>
+        <servlet-class>com.bhu.mess.servlet.MessOwnerLoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MessOwnerLoginServlet</servlet-name>
+        <url-pattern>/MessOwnerLoginServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+    <servlet-name>MenuServlet</servlet-name>
+    <servlet-class>com.bhu.mess.servlet.MenuServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>MenuServlet</servlet-name>
+    <url-pattern>/MenuServlet</url-pattern>
+</servlet-mapping>
+    
+    
+    <servlet>
+    <servlet-name>ViewRegisteredStudentsServlet</servlet-name>
+    <servlet-class>com.bhu.mess.servlet.ViewRegisteredStudentsServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>ViewRegisteredStudentsServlet</servlet-name>
+    <url-pattern>/ViewRegisteredStudentsServlet</url-pattern>
+</servlet-mapping>
+    
+    <servlet>
+    <servlet-name>ViewMenuServlet</servlet-name>
+    <servlet-class>com.bhu.mess.servlet.ViewMenuServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>ViewMenuServlet</servlet-name>
+    <url-pattern>/ViewMenuServlet</url-pattern>
+</servlet-mapping>
+    
+    <servlet>
+    <servlet-name>EditMenuServlet</servlet-name>
+    <servlet-class>com.bhu.mess.servlet.EditMenuServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>EditMenuServlet</servlet-name>
+    <url-pattern>/EditMenuServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>AddMenuServlet</servlet-name>
+    <servlet-class>com.bhu.mess.servlet.AddMenuServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>AddMenuServlet</servlet-name>
+    <url-pattern>/AddMenuServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>MessOwnerRegisterServlet</servlet-name>
+    <servlet-class>com.bhu.mess.servlet.MessOwnerRegisterServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>MessOwnerRegisterServlet</servlet-name>
+    <url-pattern>/MessOwnerRegisterServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>EditMenuFormServlet</servlet-name>
+    <servlet-class>com.bhu.mess.servlet.EditMenuFormServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>EditMenuFormServlet</servlet-name>
+    <url-pattern>/EditMenuFormServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>StudentViewMenuServlet</servlet-name>
+    <servlet-class>com.bhu.mess.servlet.StudentViewMenuServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>StudentViewMenuServlet</servlet-name>
+    <url-pattern>/viewStudentMenu</url-pattern>
+</servlet-mapping>
+
+    <servlet>
+    <servlet-name>AdminLoginServlet</servlet-name>
+    <servlet-class>com.bhu.mess.servlet.AdminLoginServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>AdminLoginServlet</servlet-name>
+    <url-pattern>/AdminLoginServlet</url-pattern>
+</servlet-mapping>
+    
+    <servlet>
+    <servlet-name>AdminViewStudentsServlet</servlet-name>
+    <servlet-class>com.bhu.mess.servlet.admin.AdminViewStudentsServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>AdminViewStudentsServlet</servlet-name>
+    <url-pattern>/AdminViewStudentsServlet</url-pattern>
+</servlet-mapping>
+    
+    <servlet>
+    <servlet-name>AdminViewMessOwnersServlet</servlet-name>
+    <servlet-class>com.bhu.mess.servlet.admin.AdminViewMessOwnersServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>AdminViewMessOwnersServlet</servlet-name>
+    <url-pattern>/AdminViewMessOwnersServlet</url-pattern>
+</servlet-mapping>
+    
+    <servlet>
+    <servlet-name>ViewMyMessMenuServlet</servlet-name>
+    <servlet-class>com.bhu.mess.servlet.ViewMyMessMenuServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>ViewMyMessMenuServlet</servlet-name>
+    <url-pattern>/ViewMyMessMenuServlet</url-pattern>
+</servlet-mapping>
+    
+    
+
+</web-app>
