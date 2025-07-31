@@ -138,13 +138,19 @@ BHU_MESS_MANAGEMENT/
 ### 🏠 Dashboard
 ![Dashboard](https://github.com/Harshit20-sys/BHU-Mess-Management/blob/7dfca2a66e6d5e05cb6f303161e03f64c2f2d147/WebContent/images/Screenshot%202025-07-31%20071731.png)
 
+
 ### 🏠 Student Dashboard
 ![Student Dashboard](https://github.com/Harshit20-sys/BHU-Mess-Management/blob/28ffdd7c7f8a89567473a8a1182fe77180312bd5/WebContent/images/Screenshot%202025-07-31%20071756.png)
 
 
 
-### 📋 View My Registrations
-![My Registrations](screenshots/my_registrations.png)
+### 📋 Mess Owner Dashboard
+![Mess Owner Dashboard]()
+
+
+### 📋 Admin Dashboard
+![Admin Dashboard]()
+
 
 ### 🍛 View Menu
 ![Mess Menu](screenshots/view_menu.png)
