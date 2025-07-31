@@ -100,7 +100,7 @@ MySQL Database
    - `lunch` (VARCHAR)
    - `dinner` (VARCHAR)
 
-> 💡 *All messes currently show the same menu using a centralized menu table.*
+
 
 ---
 
@@ -131,6 +131,34 @@ BHU_MESS_MANAGEMENT/
 │ └── web.xml # Deployment descriptor
 └── SQL/
 └── bhu_mess.sql # Database schema
+
+
+## 🖼️ Screenshots
+
+### 🏠 Dashboard
+![Dashboard](screenshots/student_dashboard.png)
+
+### 🏠 Student Dashboard
+![Student Dashboard](screenshots/student_dashboard.png)
+
+### 📝 Register in Mess
+![Register in Mess](screenshots/register_mess.png)
+
+### 📋 View My Registrations
+![My Registrations](screenshots/my_registrations.png)
+
+### 🍛 View Menu
+![Mess Menu](screenshots/view_menu.png)
+
+
+
+## ⚙️ How to Run the Project
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/your-username/BHU-Mess-Management.git
+
 
 🔮 Future Enhancements
 🔐 Admin login to manage messes
