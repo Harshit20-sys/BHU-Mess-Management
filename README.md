@@ -152,8 +152,8 @@ BHU_MESS_MANAGEMENT/
 ![Admin Dashboard](https://github.com/Harshit20-sys/BHU-Mess-Management/blob/4a5fe0fd319d02a93bba3aa591c52a1d9100cb7d/WebContent/images/Screenshot%202025-07-31%20071942.png)
 
 
-### 🍛 View Menu
-![Mess Menu](screenshots/view_menu.png)
+### 🍛 Menu
+![Mess Menu](https://github.com/Harshit20-sys/BHU-Mess-Management/blob/525765015bcbdfb3fd41d6ca0af068c238880f73/WebContent/images/Screenshot%202025-07-31%20073604.png)
 
 
 
