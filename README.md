@@ -136,7 +136,7 @@ BHU_MESS_MANAGEMENT/
 ## 🖼️ Screenshots
 
 ### 🏠 Dashboard
-![Dashboard](screenshots/student_dashboard.png)
+![Dashboard]([screenshots/student_dashboard.png](https://github.com/Harshit20-sys/BHU-Mess-Management/blob/7dfca2a66e6d5e05cb6f303161e03f64c2f2d147/WebContent/images/Screenshot%202025-07-31%20071731.png))
 
 ### 🏠 Student Dashboard
 ![Student Dashboard](screenshots/student_dashboard.png)
