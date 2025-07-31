@@ -179,7 +179,7 @@ BHU_MESS_MANAGEMENT/
 👨‍💻 Author
 Harshit Singh
 
-🎓 Backend & Database Developer
+🎓 Backend Developer
 
 🌐 Harshit20-sys
 
