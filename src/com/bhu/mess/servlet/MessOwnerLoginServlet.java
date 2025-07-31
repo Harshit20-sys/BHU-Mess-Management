@@ -22,7 +22,7 @@ public class MessOwnerLoginServlet extends HttpServlet {
         if (owner != null) {
             // ✅ Successful Login
             HttpSession session = request.getSession();
-            session.setAttribute("messOwner", owner);
+            session.setAttribute("email", email);
             response.sendRedirect("pages/messOwnerDashboard.jsp");
         } else {
             // ❌ Login Failed
