@@ -142,7 +142,7 @@ BHU_MESS_MANAGEMENT/
 ![Student Dashboard]([screenshots/student_dashboard.png](https://github.com/Harshit20-sys/BHU-Mess-Management/blob/28ffdd7c7f8a89567473a8a1182fe77180312bd5/WebContent/images/Screenshot%202025-07-31%20071756.png))
 
 ### 📝 Register in Mess
-![Register in Mess](screenshots/register_mess.png)
+![Register in Mess](WebContent/images/Screenshot 2025-07-31 071731.png)
 
 ### 📋 View My Registrations
 ![My Registrations](screenshots/my_registrations.png)
