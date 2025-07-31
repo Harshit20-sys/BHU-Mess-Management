@@ -145,7 +145,7 @@ BHU_MESS_MANAGEMENT/
 
 
 ### 📋 Mess Owner Dashboard
-![Mess Owner Dashboard](https://github.com/Harshit20-sys/BHU-Mess-Management/blob/4a5fe0fd319d02a93bba3aa591c52a1d9100cb7d/WebContent/images/Screenshot%202025-07-31%20071859.png)
+![Mess Owner Dashboard](https://github.com/Harshit20-sys/BHU-Mess-Management/blob/32908087b29ac7c2b87da6a6cc6e13ded9bbf014/WebContent/images/Screenshot%202025-07-31%20075624.png)
 
 
 ### 📋 Admin Dashboard
