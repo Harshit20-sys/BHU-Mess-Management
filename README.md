@@ -145,11 +145,11 @@ BHU_MESS_MANAGEMENT/
 
 
 ### 📋 Mess Owner Dashboard
-![Mess Owner Dashboard]()
+![Mess Owner Dashboard](https://github.com/Harshit20-sys/BHU-Mess-Management/blob/4a5fe0fd319d02a93bba3aa591c52a1d9100cb7d/WebContent/images/Screenshot%202025-07-31%20071859.png)
 
 
 ### 📋 Admin Dashboard
-![Admin Dashboard]()
+![Admin Dashboard](https://github.com/Harshit20-sys/BHU-Mess-Management/blob/4a5fe0fd319d02a93bba3aa591c52a1d9100cb7d/WebContent/images/Screenshot%202025-07-31%20071942.png)
 
 
 ### 🍛 View Menu
